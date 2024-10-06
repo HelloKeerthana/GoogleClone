@@ -1,0 +1,158 @@
+ body{
+      background-color: white;
+      color: black;
+      transition: background-color 0.1s ease, color 0.1s ease;
+    }
+    body a{
+      color:black;
+    }
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color:lightgray;
+    }
+    button:hover{
+       color: lightgray;
+       background-color: black;
+    }
+    button:active{
+       color: lightgray;
+       background-color: hsl(0, 0, 10%);
+    }
+    body.dark-mode button{
+      color: lightgray;
+      background-color: black;
+    }
+    body.dark-mode {
+      background-color: black;
+      color: white;
+    }
+    body.dark-mode a{
+      color:white;
+    }
+
+    body a:hover{
+      text-decoration: underline;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      font-size: 17px; /* Footer font size */
+      color: black;
+      margin: 10px;
+    }
+
+    .left-links,
+    .right-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .wordlinks1,.wordlinks2 {
+      font-size: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar img {
+      vertical-align: middle;
+      cursor: pointer;
+    }
+
+    /* Adjust logo and search bar */
+    .logo {
+      margin-top: 200px;
+      margin-left: 600px;
+      position: absolute;
+    }
+
+    #searchbar {
+      position: absolute;
+      top: 370px;
+      left: 475px;
+      height: 25px;
+      width: 450px;
+      border: 1px solid grey;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 35px;
+      font-size: 25px;
+      color: #333;
+      background-color: #f9f9f9;
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLAQTXbzFN9CssOu9X-scV1DWVAUoyShVd4g&s");
+      background-repeat: no-repeat;
+      background-size: 30px;
+      background-position: 10px center;
+    }
+
+    /* Popup grid styling */
+    #popupcard {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      background-color: white;
+      width: 220px;
+      padding: 20px;
+      border: 1px solid lightgray;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 40px;
+      right: 30px;
+      border-radius: 20px;
+    }
+
+    .popupitem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .popupdata img {
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      width: 100%;
+      font-size: 22px;
+      padding-left: 10px;
+      padding-top: 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .footer div {
+      display: flex;
+      gap: 40px;
+    }
+
+    .india {
+      position: fixed;
+      bottom: 50px;
+      font-size: 18px;
+      padding-left: 10px;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: black;
+    }
+    .right{
+      display: flex-end;
+      flex-wrap:wrap;
+      margin-right: 10px;
+      justify-content: center;
+    }
+  
