@@ -1,5 +1,7 @@
 Google Clone
+
 Overview
+
 This project is a simple clone of the Google homepage built using HTML, CSS, and JavaScript. 
 It features a clean design and includes a dark mode toggle for a better user experience. 
 While the search functionality is not implemented, all links are fully operational, directing users to their respective destinations.
